@@ -94,6 +94,9 @@ public class TestController {
         List<String> collect = departments.stream().flatMap(List::stream)
                 .collect(Collectors.toList());
         System.out.println(collect);
+
+
+        System.out.println("第一次提交");
     }
 
 
